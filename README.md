@@ -1,5 +1,15 @@
 # GymTrainer
 It is Pose Estimation Project which is made using mediapipe and opencv. It counts the repetitions of exercises. This code is useful for 4 exercises: Leg Press, Bench Press, Bicep Curls ans Tricep Curls
+# Project Setup
+- I have used **Mediapipe** to find angle and position of the movements and **OpenCV** to input and output videos. 
+- I have made this project considering Right-Hand-Side Camera Angle. We can change that by changing landmark points respectively.
+
+
+  
+**Getting Started**
+  + The **Pose.py** contains reusable functions defined in a class. 
+  + The **Exercise.py** contains the code that uses those fuctions to give the output to various exercises. It is like main.py file.
+  + Add one of the videos' path from the video folder into Exercise.py. You can also use your webCam instead.
 
 # Output Videos
 ## Bicep Curls
